@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main(){
+    bool weekDay = true;
+    bool vacation = false;
+    
+    bool sleepin = false;
+    
+    if (weekDay==false || vacation==true){
+    sleepin=true;
+    cout<<sleepin << boolalpha;
+    }
+    else {cout << sleepin;}
+}

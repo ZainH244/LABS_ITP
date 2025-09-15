@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+    double s1,s2,s3;
+    cout<<"Enter the length of 1st side";
+    cin>>s1;
+    cout<<"Enter the length of 2nd side";
+    cin>>s2;
+    cout<<"Enter the length of 3rd side";
+    cin>>s3;
+ if((s1==s2)&&(s1==s3)){
+          cout<<"It is an equilateral triangle"<<endl;
+        }
+else if((s1==s2)||(s1==s3)||(s2==s3)) {
+           cout<<"It is an isosceles triangle"<<endl;
+        } 
+else{
+     cout<<"It is a scalene triangle"<<endl;
+    }
+}
